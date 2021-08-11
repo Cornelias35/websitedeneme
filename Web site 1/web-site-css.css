@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+#yasar-logo  img{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    height: 100px;
+    width: 350px;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 1px solid rgb(172, 160, 160);
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 32px;
+  border: 1px solid rgb(172, 160, 160);
+  background: rgb(172, 160, 160);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 20%;
+  position: absolute;
+  right: 50px;
+  top: 100px;
+  transform: translate(-50%, -50%);
+}
+ul {
+    list-style-type: none;
+    margin-top: 130px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: rgb(243, 83, 9);
+    text-align:center;
+}
+  
+li {
+    display:inline;
+}
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+li a:hover {
+    background-color: black;
+}
+#mainpicture {
+    text-align: center;
+}
+#muhen {
+    margin-left: 250px;
+    background-color: lightgray;
+    height: 200px;
+    width: 1000px;
+}
+#muheninfo .hakkir {
+    padding-left: 340px;
+    margin-top: -150px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix {
+    margin-left: 250px;
+    width: 1000px;
+}
+.clearfix #duyuru {
+    width: 50%;
+    float: left;
+}
+.clearfix #duyuru a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+.clearfix #duyuru p {
+  font-style: italic;
+  font-size: 10px;
+  color: rgb(177, 160, 160);
+}
+.clearfix #duyuru a:hover {
+  color: orange;
+}
+.clearfix #duyuru div {
+  height: 95px;
+}
+.clearfix #haber a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+.clearfix #haber div {
+  height: 95px;
+}
+.clearfix #haber p {
+  font-style: italic;
+  font-size: 10px;
+  color: rgb(177, 160, 160);
+}
+.clearfix #haber a:hover {
+  color: orange;
+}
+.clearfix #haber {
+    width: 50%;
+    float: left;
+}
+.clearfix #tumunulistele  button{
+  border-style: none;
+  padding: 4px;
+}
+.clearfix #tumunulistele  button:hover {
+  background-color: orange;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#iletisim {
+  width: 100%;
+  background-color: rgba(250, 249, 249, 0.808);
+  height: 300px;
+  background-image: url("20png.png");
+  background-position: center;
+}
+#iletisim {
+  z-index: 1;
+  height: 300px;
+  background-repeat: no-repeat;
+  width: 100% ;
+}
+#iletisim .ilet1 {
+  margin-top: 20px;
+  float: left;
+  margin-left: 200px;
+  width: 20%;
+  font-size: 12px;
+}
+#iletisim .ilet2 {
+  margin-top: 20px;
+  float: left;
+  width: 10%;
+  font-size: 12px;
+}
+#iletisim .ilet3 {
+  margin-top: 20px;
+  float: left;
+  margin-left: 100px;
+  width: 20%;
+  font-size: 12px;
+}
+#iletisim .ilet4 {
+  margin-top: 20px;
+  float: left;
+  width: 20%;
+  font-size: 12px;
+}
+#enalt {
+  background-color: black;
+  height: 100px;
+  margin-top: 0;
+  color: white;
+  border-top: solid orange;
+}
+#enalt #yasar {
+  float: left;
+}
+#enalt #social {
+  float: left;
+}
+#enalt h4 {
+  margin-left: 200px;
+  margin-top: 40px;
+}
+#enalt p {
+  margin-top:40px ;
+  margin-left: 500px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#enalt #social a {
+  text-decoration: none;
+  padding: 5px 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+#enalt #social a:hover {
+  opacity: 0.7;
+}
+#enalt #social .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+#social table {
+  margin-top: -40px;
+  margin-left: 600px;
+}
